@@ -1,0 +1,16 @@
+{
+    "name": "rev/sway-framework-service",
+    "description": "SwayFramework Httpd Component",
+    "type": "sf-package",
+    "authors": [
+        {
+            "name": "Reverze",
+            "email": "hawkmedia24@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sway\\Component\\Service\\": "src/"
+        }
+    }
+}
