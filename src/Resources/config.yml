@@ -1,0 +1,11 @@
+framework:
+    component.init:
+        serviceContainer:
+            controller: Sway\Component\Service\Init
+            require:
+                - parameter
+        service:
+            controller: Sway\Component\Service\InitInterface
+            require:
+                - parameter
+                - serviceContainer
